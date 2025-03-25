@@ -1,0 +1,2 @@
+SOURCE = \
+atmBoundaryLayerTemperatureFvPatchScalarField.C 

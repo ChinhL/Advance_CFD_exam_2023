@@ -1,0 +1,3 @@
+atmBoundaryLayerTemperatureFvPatchScalarField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libatmBoundaryLayerTemperature
