@@ -1,0 +1,6 @@
+/* dynamicCode:
+ * SHA1 = 4c7c2286d7e05b8b55e0c0964333081e9fc4a553
+ */
+mixedFvPatchFieldTemplate.C
+
+LIB = $(PWD)/../platforms/$(WM_OPTIONS)/lib/libatmBoundaryLayerTemperature_4c7c2286d7e05b8b55e0c0964333081e9fc4a553

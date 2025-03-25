@@ -1,0 +1,6 @@
+/* dynamicCode:
+ * SHA1 = a10fc6a20e1ce523074db5c3c1829c501cd4836e
+ */
+mixedFvPatchFieldTemplate.C
+
+LIB = $(PWD)/../platforms/$(WM_OPTIONS)/lib/libBoundaryLayerInletVelocity_a10fc6a20e1ce523074db5c3c1829c501cd4836e

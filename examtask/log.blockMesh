@@ -1,0 +1,81 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8-1c9b5879390b
+Exec   : blockMesh
+Date   : Mar 17 2023
+Time   : 05:50:55
+Host   : "chinhle-VirtualBox"
+PID    : 7136
+I/O    : uncollated
+Case   : /home/chinhle/OpenFOAM/chinhle-8/run/examtask
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/home/chinhle/OpenFOAM/chinhle-8/run/examtask/constant/polyMesh"
+Creating block mesh from
+    "system/blockMeshDict"
+No non-linear block edges defined
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 1
+		Number of boundary faces : 10
+		Number of defined boundary faces : 10
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.02 .. 0.02
+        j : 0.02 .. 0.02
+        k : 0.1
+    Block 1 cell size :
+        i : 0.02 .. 0.02 0.0200028 .. 0.0200028 0.02 .. 0.02 0.0200028 .. 0.0200028 
+        j : 0.02 .. 0.02 0.0196667 .. 0.0196667 0.02 .. 0.02 0.0196667 .. 0.0196667 
+        k : 0.1
+
+There are no merge patch pairs edges
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 -0.05) (1 0.4 0.05)
+  nPoints: 2142
+  nCells: 1000
+  nFaces: 4070
+  nInternalFaces: 1930
+----------------
+Patches
+----------------
+  patch 0 (start: 1930 size: 20) name: inlet
+  patch 1 (start: 1950 size: 20) name: outlet
+  patch 2 (start: 1970 size: 50) name: top
+  patch 3 (start: 2020 size: 50) name: bottom
+  patch 4 (start: 2070 size: 2000) name: frontAndBack
+
+End
+
